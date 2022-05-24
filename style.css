@@ -1,0 +1,53 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.content{
+    border-bottom: solid 1px #d2d6de;
+    background-color: #edf2f5;
+    padding: 16px 35px 16px 15px;
+    position: relative;
+    cursor: pointer;
+    overflow: auto;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color:grey;
+    border:1px solid black
+}
+.container{
+    
+    border: 1px solid black;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.for-sending-disconnection-of-users{
+    background-color: rgb(122, 121, 121);
+    margin-top: 20px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 30%;
+    clear: both;
+    color:white;
+}
+
+.message{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 40%;
+    clear: both;
+}
+.para{
+    margin-top: 5px;
+    margin-right: 362px;
+    margin-bottom: 0;
+}
+.grey{
+    background-color: grey;
+}

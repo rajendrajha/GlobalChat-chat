@@ -1,0 +1,118 @@
+body{
+    background-image: linear-gradient(rgb(23, 23, 114),rgb(163, 174, 164), rgb(23, 23, 114));
+    background-size: cover;
+}
+.container{
+    border:1px solid rgb(200, 199, 199);
+    border-radius:10px;
+}
+.container2{
+    height:500px;
+    background-color: none;
+    
+}
+.main-box{
+    
+}
+.msg{
+    float: right;
+    width: 200px;
+    border-radius:10px;
+}
+.message{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 40%;
+    clear: both;
+}
+.for-sending-disconnection-of-users{
+    background-color: rgb(122, 121, 121);
+    margin-top: 20px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 30%;
+    clear: both;
+    color:white;
+}
+.btn2{
+    width: 100px;
+    border-radius: 20px;
+    background-color: green;
+    color: azure;
+    height: 50px;
+}
+.right{
+    float: right;
+   
+}
+.left{
+    float: left;
+}
+.centre{
+    margin-left: 380px;
+}
+.msg2{
+    float: left;
+    width: 200px;
+    border-radius:10px;
+    clear: both;
+}
+#btn{
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(131, 248, 160);
+    color: azure;
+    height: 50px;
+}
+img{
+    border-radius: 1000px;
+}
+.header{
+    margin-left: 560px;
+}
+.green{
+    background-color: rgb(118, 223, 123);
+}
+.para{
+    margin-top: 5px;
+    margin-right: 362px;
+    margin-bottom: 0;
+}
+#room-btn{
+    width: 100px;
+    border-radius: 20px;
+    background-color: green;
+    color: azure;
+    height: 50px;
+}
+#send-icon{
+    width: 70px;
+    height: 40px;
+    
+}
+#btn45{
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    height: 50px;
+}
+#rec_icon{
+    width: 60px;
+    height: 50px;
+}
+#video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-auto-rows: 300px;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
